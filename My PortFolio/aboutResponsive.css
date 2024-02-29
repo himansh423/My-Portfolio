@@ -1,0 +1,72 @@
+/* ultra-large laptop/pc decices */
+@media screen and (min-width:1600px) and (max-width:2560px) {
+.options a {
+    text-decoration: none;
+    margin-left:8px;
+    font-size: 2rem;
+    color: #808080;
+    font-family: sans-serif;
+    transition: all 0.4s ease-out 0s;
+}
+.name {
+    font-size: 3.2rem;
+    color:#2965ff;
+    font-family: sans-serif;
+    padding:0px 0px 5px 0px;
+    font-weight: 550;
+}
+}
+
+
+/* Mobile  */
+@media screen and (max-width:427px) {
+   
+    .background {
+        height:200px;
+        width: 510px;
+        background-size: contain;
+    }
+    /* navbar */
+    .navbar {
+    height:150px;
+    width:600px;
+    display:flex;
+    flex-direction:column ;
+    justify-content: none;
+    padding:80px 20px 0px 20px;
+    }
+    .name {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .options {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top:0px;
+    }
+    .options a {     
+        margin-left:8px;
+        font-size: 1rem;
+    } 
+    .photo {
+        width: 600px;
+    }
+    .summary {
+        height:729px;
+        width:max-content;    
+    }
+    .who {
+        margin-left: 10px;
+    }
+    .res {
+        height:1200px;
+        width: max-content;
+    }
+    .resume {
+        margin-left: 70px;
+        position: relative;
+        left: 140px;
+    }
+}
+
+

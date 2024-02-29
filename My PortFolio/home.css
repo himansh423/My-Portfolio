@@ -1,0 +1,226 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.background {
+    background-color:#ffffff;
+    height:729px;
+    background-image: url(background.png);
+    background-size: cover;
+}
+/* navbar */
+.navbar {
+    height:90px;
+    display:flex;
+    justify-content: space-between;
+    padding:60px 56px 0px 37px;
+}
+.name {
+    font-size: 2.2rem;
+    color:#2965ff;
+    font-family: sans-serif;
+    padding:0px 0px 5px 0px;
+    font-weight: 550;
+}
+.options {
+    padding-top:9px;
+}
+.options a {
+    text-decoration: none;
+    margin-left:8px;
+    font-size: 1.2rem;
+    color: #808080;
+    font-family: sans-serif;
+    transition: all 0.4s ease-out 0s;
+}
+.options .home {
+    color:black;
+    font-weight: 700;
+    border-bottom: 5px solid grey;
+    border-radius: 20%;
+}
+.options a:hover {
+    border-bottom: 5px solid grey;
+    border-radius: 20%;
+    font-size:1.4rem ;
+}
+.options a:active {
+    color: black;
+    font-weight: 700;
+}
+
+/* hero section */
+
+.hero-section {
+    height:450px;
+    display:flex;
+    flex-direction:row ;
+    margin-left: 20px;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+.greetings {
+    display:flex;
+    flex-direction: column;
+}
+.welcome {
+    font-size: 7rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #000000;
+    animation : welcome 1.5s ease-in 0s 1 normal;   
+}
+@keyframes welcome {
+    from {
+        transform: translate(0px,-50px); 
+        color:rgba(0,0,0,0)
+    }
+    to { 
+        color:#000000;
+    }
+}
+pre {
+    width: 700px;
+    font-size: 1.8rem;
+    padding-left: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #161616;
+    text-wrap: wrap;
+    animation: about 3s ease-in 0s 1 normal;
+}
+@keyframes about {
+    0%{
+       
+        color: rgba(0,0,0,0);
+    }
+    59%{
+       
+        color: rgba(0,0,0,0);
+    }
+    100%{
+        
+        color: #161616;
+    }
+}
+/* buttons */
+.links {
+    height:350px;
+    width:400px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    animation: float 5s linear 0s infinite normal;   
+}
+.linked {
+    height:60px;
+    width:60px;
+    background-image: url("linkedin.png");
+    background-size: cover;
+    position:relative ;
+    top:150px;
+    transition: all 0.3s linear 0s;
+    
+}
+.linked:hover {
+     height: 70px;
+     width: 70px;
+}
+.insta {
+    height:60px;
+    width:60px;
+    background-image: url("instagram.png");
+    background-size: cover;
+    position:relative ;
+    top:70px; 
+    transition: all 0.3s linear 0s;  
+}
+.insta:hover {
+    height:70px;
+    width:70px;
+}
+.x {
+    height:60px;
+    width:60px;
+    background-image: url("twitter.png");
+    background-size: cover;
+    position:relative ;
+    top:150px;
+    transition: all 0.3s linear 0s;
+}
+.x:hover {
+    height:70px;
+    width:70px;
+}
+.facebook {
+    height:60px;
+    width:60px;
+    background-image: url("facebook.png");
+    background-size: cover;
+    position:relative ;
+    top:250px;
+    right:200px;
+    transition: all 0.3s linear 0s;
+}
+.facebook:hover {
+    width:70px;
+    height:70px;
+}
+.github {
+    height:60px;
+    width:60px;
+    background-image: url("github.png");
+    background-size: cover;
+    position:relative ;
+    top:245px;
+    right:180px;
+    transition:all 0.3s ease-in 0s;
+      
+}
+.github:hover {
+    height:70px;
+    width:70px;
+}
+.social {
+    height:40px;
+    width:40px;
+    background-image: url("link.png");
+    background-size: cover;
+    position: relative;
+    top:180px;
+    right:280px; 
+       
+}
+.links a {
+    border:2px solid white;
+    border-radius: 50%;
+}
+@keyframes float {
+    0% {
+        transform: translate(0px);
+    }
+    25% {
+        transform: translateX(10px);
+    }
+    50% { transform: translateY(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  

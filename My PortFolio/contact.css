@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background {
+    background-color:#ffffff;
+    height:800px;
+    background-image: url(background.png);
+    background-size: cover;
+}
+/* navbar */
+.navbar {
+    height:120px;
+    display:flex;
+    justify-content: space-between;
+    padding:60px 56px 0px 37px;
+}
+.name {
+    font-size: 2.2rem;
+    color:#2965ff;
+    font-family: sans-serif;
+    padding:0px 0px 5px 0px;
+    font-weight: 550;
+}
+.options {
+    padding-top:9px;
+}
+.options a {
+    text-decoration: none;
+    margin-left:8px;
+    font-size: 1.2rem;
+    color: #808080;
+    font-family: sans-serif;
+    transition: all 0.4s ease-out 0s;
+}
+.options .contact {
+    color:black;
+    font-weight: 700;
+    border-bottom: 5px solid grey;
+    border-radius: 20%;
+}
+.options a:hover {
+    border-bottom: 5px solid grey;
+    border-radius: 20%;
+    font-size:1.4rem ;
+}
+.options a:active {
+    color: black;
+    font-weight: 700;
+}
+
+/* hero section */
+
+.hero-section {
+    height:729px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+
+.hero {
+    margin-top: 30px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero .cont {
+    font-size: 6rem;
+    color:black;
+    font-family: sans-serif;
+    font-weight:500;
+}
+.hero .para {
+    color: #808080;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+/* icons */
+
+.icons {
+    height:100px;
+    width:700px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.mail {
+    height:90px;
+    width:90px;
+    background-image: url("email.png");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.phone {
+    height:90px;
+    width:90px;
+    background-image: url("phone-call.png");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.linkedin {
+    height:90px;
+    width:90px;
+    background-image: url("linkedin.png");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.insta {
+    height:90px;
+    width:90px;
+    background-image:url("instagram.png");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.whats {
+    height:90px;
+    width:90px;
+    background-image:url("whatsapp.png");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.links {
+    width: 800px;
+    display: flex;
+    
+}
+.links a {
+    font-size: 0.85rem;
+    color: grey;
+    font-weight: 500;
+    text-decoration: none;
+}
+.links .mai {
+    margin-left: 36px;
+    margin-right: 15px;
+}
+.links .phon {
+    margin-right: 20px;
+}
+.links .linked {
+    margin-left: 33px;
+}
+.links .inst {
+    margin-left: 60px;
+}
+.links .what {
+    margin-left: 45px;
+}
+
+/* making responsive for mobile */
+

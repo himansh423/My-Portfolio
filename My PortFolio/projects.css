@@ -1,0 +1,167 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar */
+.background {
+    background-color:#ffffff;
+    height:120px;
+    background-image: url(background.png);
+    background-size: cover;
+}
+.navbar {
+    height:120px;
+    display:flex;
+    justify-content: space-between;
+    padding:60px 56px 0px 37px;
+}
+.name {
+    font-size: 2.2rem;
+    color:#2965ff;
+    font-family: sans-serif;
+    padding:0px 0px 5px 0px;
+    font-weight: 550;
+}
+.options {
+    padding-top:9px;
+}
+.options a {
+    text-decoration: none;
+    margin-left:8px;
+    font-size: 1.2rem;
+    color: #808080;
+    font-family: sans-serif;
+    transition: all 0.4s ease-out 0s;
+}
+.options .project {
+    color:black;
+    font-weight: 700;
+    border-bottom: 5px solid grey;
+    border-radius: 20%;
+}
+.options a:hover {
+    border-bottom: 5px solid grey;
+    border-radius: 20%;
+    font-size:1.4rem ;
+}
+.options a:active {
+    color: black;
+    font-weight: 700;
+}
+
+/* hero section */
+
+.pro-back {
+    height:800px;
+    background-image:url("amazon1.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+
+}
+.pro-front {
+    display: flex;
+    width:566px;
+    background-color: rgba(12, 179, 197,0.5);
+    border-right: 10px;
+    border-radius: 20px;
+    justify-content:center ;
+    align-items: center;
+    transition: all 1s ease 0s;
+}
+.content {
+    display: block;
+
+}
+.content p {
+    font-size: 3rem;
+    font-family: Georgia, Times, 'Times New Roman', serif ;
+    color:aliceblue;
+}
+.content a {
+    font-size: 1.3rem;
+    color:azure;
+}
+.pro-front:hover {
+    background-color:rgb(12, 179, 197) ;
+     width:600px;
+}
+
+/* hero section 2 */
+
+.pro-back2 {
+    height:800px;
+    background-image:url("portfolioImage.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+
+}
+.pro-front2 {
+    display: flex;
+    width:566px;
+    background-color: rgba(9, 137, 212,0.5);
+    border-right: 10px;
+    border-radius: 20px;
+    justify-content:center ;
+    align-items: center;
+    transition: all 1s ease 0s;
+}
+.content2 {
+    display: block;
+
+}
+.content2 p {
+    font-size: 3rem;
+    font-family: Georgia, Times, 'Times New Roman', serif ;
+    color:aliceblue;
+}
+.content2 a {
+    font-size: 1.3rem;
+    color:azure;
+}
+.pro-front2:hover {
+    background-color:rgb(9, 137, 212) ;
+     width:600px;
+}
+
+/* footer */
+
+footer {
+    height:300px;
+    background-color:#fffff7;
+    display: flex;
+    flex-direction: column;
+}
+.nam {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 2.2rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #2965ff;
+}
+.media {
+    margin-top: 15px;
+    font-size:0.95rem;
+    margin-left: 33px;
+    height: 30px;
+    width: 160px;
+    display: flex;
+   
+}
+.media a {
+    margin-right: 20px;
+    height: 20px;
+    border-bottom: 2px solid rgba(178, 171, 171,0.5);
+    border-radius: 2px;
+    color: #161616;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.media a:hover {
+    border-bottom: 2px solid rgba(178, 171, 171,1);
+    border-radius: 2px;
+
+}

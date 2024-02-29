@@ -1,0 +1,120 @@
+/* ultra-large laptop/pc decices */
+@media  (min-width:1600px) and (max-width:2560px) {
+    .background {
+        height:300px;
+    }
+    /* navbar */
+    .navbar {
+        height:200px;
+        display:flex;
+        justify-content: space-between;
+        padding:120px 150px 0px 80px;
+    }
+    .name {
+        font-size: 3.5rem;
+    }
+    .options a {
+        text-decoration: none;
+        margin-left:23px;
+        font-size: 2rem;
+    }
+    .options a:hover {
+        font-size: 2.2rem;
+    }
+    .pro-back {
+        height: 1200px;
+    }
+    .pro-back2 {
+        height:1200px;
+    }
+    .pro-front {
+        width: 800px;
+    }
+    .pro-front2 {
+        width: 800px;
+    }
+    .content p {
+        font-size: 5rem;
+    }
+    .content a {
+        font-size: 2.3rem;
+    }
+    .content2 p {
+        font-size: 5rem;
+    }
+    .content2 a {
+        font-size: 2.3rem;
+    }
+    .pro-front:hover {
+        width:1000px;
+    }
+    .pro-front2:hover {
+        width:1000px;
+    }
+}
+
+
+
+
+/* Mobile large */
+@media screen and (max-width:427px) {
+    .background {
+        height:150px;
+        background-size: contain;
+    }
+    /* navbar */
+    .navbar {
+    height:150px;
+    display:flex;
+    flex-direction:column ;
+    justify-content: none;
+    padding:80px 20px 0px 20px;
+    }
+    .name {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .options {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top:0px;
+    }
+    .options a {     
+        margin-left:8px;
+        font-size: 1rem;
+    } 
+}
+/* mobile medium */
+@media screen and (max-width:379px) {
+    .background {
+        height:170px;
+        background-size: contain;
+    }
+    /* navbar */
+    .navbar {
+    height:150px;
+    display:flex;
+    flex-direction:column ;
+    justify-content: none;
+    padding:80px 20px 0px 20px;
+    }
+    .name {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .options {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top:0px;
+    }
+    .options a {     
+        margin-left:8px;
+        font-size: 1rem;
+    }
+   
+
+   
+}
+
+
+
