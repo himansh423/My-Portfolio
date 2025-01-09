@@ -2,6 +2,8 @@
 
 This GitHub repository hosts **Himanshu Chauhan's** impressive portfolio, showcasing his skills in frontend development. Created with **HTML** and **CSS**, the portfolio is a testament to his dedication to learning and growth in the field of web development. Himanshu's portfolio highlights the work and projects he has done while studying at **Apna College** under the guidance of **Shradha Khapra**.
 
+You can view the live portfolio at: [Himanshu's Portfolio](https://himans-portfolio.netlify.app/)
+
 ## Features
 
 ### Home Section
